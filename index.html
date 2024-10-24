@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job portal</title>
+    <link rel="icon" href="images/logo.png ">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/job.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="css/splide.min.css" rel="stylesheet" />
+    <script src="js/splide.min.js"></script>
+    
+    
+ 
+</head>
+<body>
+    <div class="container-fluid">
+        <!--nav start-->
+        <div class="row sticky-top bg-light">
+            <div class="col-sm-3  text-center sticky-top">
+                <img src="images/logo1.png" height="100" alt="">
+            </div>
+            <div class="col-sm-9 sticky-top">
+                <div class="row sticky-top">
+                    <div class="col-sm-12 pt-3">
+                        <nav class="navbar navbar-expand-lg ">
+                            <div class="container-fluid">
+                             
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html" style="font-family:Overpass, sans-serif;">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="about.html" style="font-family:Overpass, sans-serif;">About</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="career.html" style="font-family:Overpass, sans-serif;">Career Advice</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="feedback.html" style="font-family:Overpass, sans-serif;">Feedback</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    
+                                  
+
+
+                                     <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#ExampleModal" href="#" style="color:rgb(255,22,25); font-family:Overpass, sans-serif;">Login</a>
+
+
+                                  </li>   
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page"  href="#" style="color:rgb(255,22,25); font-family:Overpass, sans-serif;">/</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#" style="color:rgb(255,22,25); font-family:Overpass, sans-serif;">Sign Up</a>
+
+                                  </li>
+                                  <li>
+                                    <button type="button" class="btn text-white" style="background-color:rgb(255,22,25); font-family:Overpass, sans-serif;">+ Post A Job</button>
+                                  </li>
+                                </ul>
+                                <!-- Button trigger modal -->
+
+
+
+
+                                
+                              </div>
+                            </div>
+                          </nav>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!--nav end-->
+        <!-- Modal signup-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h3 class="text-center">Register Here</h3>
+        <form>
+          <input type="text" class="form-control bor" id="exampleFormControlInput1" placeholder="Name">
+          <input type="email" class="form-control bor my-4" id="exampleFormControlInput1" placeholder="Email">
+          <input type="password" class="form-control bor" id="exampleFormControlInput1" placeholder="Password">
+          <input type="password" class="form-control bor my-4" id="exampleFormControlInput1" placeholder="Confirm Password">
+          <button type="button" class="btn btn-secondary form-control pink">Sign Up</button>
+          <p class="text-center my-4"><span>Have an Account ?</span> <span><a href="#" style="text-decoration:none;"  data-bs-toggle="modal" data-bs-target="#exampleModal">Login Here</a></span></p>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+        <!-- modal END -->
+         <!--modal login-->
+<div class="modal fade" id="ExampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h3 class="text-center">Login</h3>
+        <form>
+          <input type="email" class="form-control bor my-4" id="exampleFormControlInput1" placeholder="Email">
+          <input type="password" class="form-control bor" id="exampleFormControlInput1" placeholder="Password">
+          <button type="button" class="btn btn-secondary form-control green my-4">Login</button>
+          <p class="text-center my-2"><span> Looking to</span> <span><a href="#" style="text-decoration:none;">Create an account</a> ?</span></p>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+         <!--modal login end-->
+        <!--slider start-->
+           
+        <div class="row bgslider p-5 text-white">
+          <div class="col-sm-7 py-5 hove">
+            <h1>
+              "Empowering <br> Your Next Career Move <br> Connecting Talent with Opportunity."
+            </h1>
+            <br>
+            <a href="#" class="btn text-white px-5 border border-white fw-bold py-2 hov"  data-bs-toggle="modal" data-bs-target="#ExampleModal" style="background-color: orangered;
+            width:250px;">Get A Job &nbsp;<i class="fa-solid fa-arrow-right fa-shake"></i></a> &nbsp; &nbsp;
+            <a href="#" class="btn px-5 fw-bold py-2 hov"  data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: white;
+            width:250px;color: orangered;">Post A Job &nbsp; <i class="fa-solid fa-arrow-right fa-shake"></i></a>
+            
+          </div>
+          <div class="col-sm-3 mx-auto text-end">
+          </div>
+        </div>
+        <!--slider end-->
+        
+        <!--find start-->
+        <div class="row grey">
+            <div class="col-sm-12 pt-4">
+                <h2 class="text-center">FIND THE JOB THAT FITS YOUR LIFE</h2>
+            </div>
+            <div class="col-sm-12 pt-4">
+                <p class="text-center fs-5">We offer thousands of jobs vacancies right now
+                </p>
+            </div>
+            <div class="col-sm-12 ">
+                <div class="row pt-3">
+                    <div class="col-sm-4 mx-auto ">
+                        <input type="email" class="form-control fd" id="exampleFormControlInput1" placeholder="Job Title, Keywords, or Company">
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="email" class="form-control fd" id="exampleFormControlInput1" placeholder="Location">
+                    </div>
+                    <div class="col-sm-1 mx-auto ">
+                        <button type="button" class="btn text-white fw-semibold" style="background-color:rgb(255,22,25)">Search</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 text-center py-4">
+                <p>Browse job offers by Category or Location</p>
+            </div>
+        </div>
+        <!--find end-->
+        <!--job selectors start-->
+        <div class="container-fluid">
+          <div class="row mt-5">
+               <section class="splide" id="slider1" aria-labelledby="carousel-heading">
+                    <h2 class="carousel-heading text-center">Find the right job Sectors</h2>
+
+                    <div class="splide__track">
+                         <div class="splide__list">
+                              <div class="splide__slide p-3 pb-5">
+                                <div class="col text-center">
+                                  <div class="card">
+                                    <h4 class="card-title mb-0 pt-4">Software & Data</h4>
+                                    <div class="card-body">
+                                      
+                                      <p class="card-text mt-0">121 jobs</p>
+                                      <p class="color">Explore Jobs <i class="fa-solid fa-arrow-right"></i></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="splide__slide p-3 pb-5">
+                                <div class="col text-center">
+                                  <div class="card">
+                                    <h4 class="card-title mb-0 pt-4">Sales</h4>
+                                    <div class="card-body">
+                                        <p class="card-text mt-0">110 jobs</p>
+                                        <p class="color">Explore Jobs <i class="fa-solid fa-arrow-right"></i></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="splide__slide p-3 pb-5">
+                                <div class="col text-center">
+                                  <div class="card">
+                                    <h4 class="card-title mb-0 pt-4">Health & Safety</h4>
+                                    <div class="card-body">
+                                        <p class="card-text mt-0">151 jobs</p>
+                                        <p class="color">Explore Jobs <i class="fa-solid fa-arrow-right"></i></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="splide__slide p-3 pb-5">
+                                <div class="col text-center">
+                                  <div class="card">
+                                    <h4 class="card-title mb-0 pt-4">Admin & Office</h4>
+                                    <div class="card-body">
+                                        <p class="card-text mt-0">201 jobs</p>
+                                        <p class="color">Explore Jobs <i class="fa-solid fa-arrow-right"></i></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="splide__slide p-3 pb-5">
+                                <div class="col text-center">
+                                  <div class="card">
+                                    <h4 class="card-title mb-0 pt-4">Software & Data</h4>
+                                    <div class="card-body">
+                                      
+                                      <p class="card-text mt-0">121 jobs</p>
+                                      <p class="color">Explore Jobs <i class="fa-solid fa-arrow-right"></i></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="splide__slide p-3 pb-5">
+                                <div class="col text-center">
+                                  <div class="card">
+                                    <h4 class="card-title mb-0 pt-4">Health & Safety</h4>
+                                    <div class="card-body">
+                                        <p class="card-text mt-0">151 jobs</p>
+                                        <p class="color">Explore Jobs <i class="fa-solid fa-arrow-right"></i></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+          </div>
+     </div>
+        
+        <!--job selectors end-->
+        <!--talent start-->
+        
+          <div class="row bgtalent px-4 my-4 shadow py-4">
+            <div class="col-sm-12 text-light">
+              <h4 class="pt-4 pb-4 fontwork fw-semibold">For clients</h4>
+              <h1 class="pt-4 fonttalent mb-0">Find talent</h1>
+              <h1 class=" fonttalent ">your way</h1>
+              <h5 class="pt-4 fontwork fontwork fw-semibold">Work with the largest network of<br/> independent professionals and get things<br/> done—from quick turnarounds to big <br/>transformations.</h5>
+              
+
+           
+          </div>
+          <div class="col-sm-4 py-5 cc">
+            <div class="card w-100 cards">
+              <div class="card-body">
+                <h3 class="card-title fw-semibold ">Post a job<br/> and hire a pro </h3>
+              <div class="poly"></div>
+                <p class="card-text pt-2">Consultations <i class="fa-solid fa-arrow-right"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 py-5 cc">
+             <div class="card w-100 cards">
+            <div class="card-body">
+              <h3 class="card-title fw-semibold ">Browse and <br/>buy projects</h3>
+              <div class="poly"></div>
+              <p class="card-text pt-2">Consultations <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+          </div>
+        </div>
+          <div class="col-sm-4 py-5 cc"> 
+            <div class="card w-100 cards">
+            <div class="card-body">
+              <h3 class="card-title fw-semibold ">Get Advice from an industry expert</h3>
+              <div class="poly"></div>
+              <p class="card-text pt-2">Consultations <span class="tilt"><i class="fa-solid fa-arrow-right"></i></span> </p>
+              
+          </div>
+        </div>
+        </div>
+        </div>
+        <!--talent end-->
+        <!--advance start-->
+        <div class="row py-5 grey mt-5">
+            <div class="col-sm-10 mx-auto py-5">
+                <div class="row">
+                    <div class="col-sm-6 ">
+                        <img src="images/career.jpg" class="img-fluid rotate" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-12">
+                            <h4>Advance your career with MyJobGator</h4>
+                            <p class="align">Create a free account, complete your profile, and get matched with your dream job.</p>
+                        </div>
+                        <div class="col-sm-12 py-2">
+                            <button type="button" class="btn text-white py-3 px-4" style="background-color:rgb(255,22,25)"><b>GET STARTED </b></button>
+                        </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p class="fw-semibold fs-5 mb-0">Get seen by employers</p>
+                                <p class="mt-2 align">With a complete profile, your applications and profile are promoted to top employers, so you stand out.</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="fw-semibold fs-5 mb-0">Get access to top jobs first</p>
+                                <p class="mt-2 align">Sign up for job alerts and be first in line for the latest jobs that match your profile.
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--advance end-->
+        <!--recentlisting start-->
+        <div class="row py-5">
+            <div class="col-sm-12 text-center">
+                <h2 class="fw-semibold" style="font-size:51px;">Recent listing</h2>
+            </div>
+            <div class="col-sm-12 text-center py-2">
+                <button type="button" class="btn text-white py-3 px-5 mt-5" style="background-color:rgb(255,22,25)"><b>EXPLORE ALL JOBS </b></button>
+
+            </div>
+        </div>
+        <!--recentlisting end-->
+        <!--good companies start-->
+        <div class="container">
+        <div class="row circle" style="border-radius:5px solid;">
+            <div class="col-sm-7 green" >
+                        <div class="row">
+                            <div class="col-sm-12 px-5" >
+                                <h5 class="text-white pt-4 fw-semibold fs-4">Enterprise Suite</h5>
+                            
+                            
+                                <h1 class="mb-0 text-white  fw-semibold font">This is how</h1>
+                                <h1 class="mb-0  fw-semibold font" style="color:rgb(108,232,183);">good companies</h1>
+                                <h1 class="   fw-semibold font" style="color:rgb(108,232,183);">find good company.</h1>
+                           
+                           
+                                <h5 class="text-white fs-5">Access the top 1% of talent on Upwork, and a full suite of <br/> hybrid workforce management tools. This is how innovation<br/> works now.</h5>
+                            
+                            
+                                <p class="mb-0 mt-2"><span style="color:rgb(108,232,183);"><i class="fa-solid fa-screwdriver-wrench"></i> </span><span class="text-white"> Access expert talent to fill your skill gaps</span></p>
+                                <p class="mt-2 mb-0"><span style="color:rgb(108,232,183);"><i class="fa-solid fa-kit-medical"></i> </span><span class="text-white"> Control your workflow: hire, classify and pay your talent</span></p>
+                                <p class="mt-2"><span style="color:rgb(108,232,183);"><i class="fa-solid fa-headphones"></i> </span><span class="text-white"> Partner with Upwork for end-to-end support</span></p>
+                            
+                            
+                                <button type="button" class=" text-dark py-2 px-3 my-3" style="background-color:white; border:none; border-radius:15px;"><b>Learn More </b></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 bgimage">
+                        
+                    </div>
+                </div>
+            </div>
+         
+        <!--good companies end-->
+        <!--instant start-->
+        <div class="row py-5">
+            <div class="col-sm-10 mx-auto">
+                <div class="row">
+                    <div class="col-sm-6 ">
+                        <img src="images/job-finder.jpg" class="img-fluid rotate" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-12">
+                            <h4>Instant Job Finder</h4>
+                            <p class="align">At MyJobgator our job finder system updates the database every 5 minutes so you are rest assured you will be getting you Dream Job</p>
+                        </div>
+                        
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p class="fw-semibold fs-5 mb-0">Get access to top jobs first</p>
+                                <p class="mt-2 align">Sign up for job alerts and be first in line for the latest jobs that match your profile.</p>
+                            </div>
+                            <div class="col-sm-12 py-2">
+                                <button type="button" class="btn text-white py-3 px-4" style="background-color:rgb(255,22,25)"><b>GET STARTED </b></button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <!--instant end-->
+        <!--footer start-->
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+                    <div class="social" role="navigation" aria-labelledby="social-heading">
+                        <h3 id="social-heading" class="sr-only">Follow us on social media</h3>
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <hr class="footer-break">
+                    <ul class="footer-links" role="navigation" aria-labelledby="footer-links-heading">
+                        <h3 id="footer-links-heading" class="sr-only">Footer Links</h3>
+                        <li><a href="#">Site Home</a></li>
+                        <li><a href="#">Playground</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Contents</a></li>
+                    </ul>
+                    <p class="copyright">© 2024 SDavidPrince. Demo of a footer. Some Rights Reserved</p>
+                </footer>
+                
+            </div>
+        </div>
+        <!--footer end-->
+            
+
+    </div>
+    <script>
+
+      if (document.getElementById('slider1') != null) {
+           var slider1 = new Splide('#slider1', {
+                type: 'loop',
+                perPage:4,
+                rewindByDrag: true,
+                focus: 0,
+                autoplay: true,
+                speed: 1000,
+
+                breakpoints: {
+                     991: {
+                          perPage: 2
+                     },
+                     561: {
+                          perPage: 1
+                     },
+                }
+           });
+
+           slider1.mount();
+      }
+
+ </script>
+
+</body>
+</html>

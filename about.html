@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Advice</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/job.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/splide.min.css" rel="stylesheet" />
+    <script src="js/splide.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <!--nav start-->
+        
+        <div class="row">
+            <div class="col-sm-3  text-center">
+                <img src="images/logo.png" height="100" alt="">
+            </div>
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="col-sm-12 pt-3">
+                        <nav class="navbar navbar-expand-lg ">
+                            <div class="container-fluid">
+                             
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html" style="font-family:Overpass, sans-serif;">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="about.html" style="font-family:Overpass, sans-serif;">About</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="career.html" style="font-family:Overpass, sans-serif;">Career Advice</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="feedback.html" style="font-family:Overpass, sans-serif;">Feedback</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#ExampleModal" style="color:rgb(255,22,25); font-family:Overpass, sans-serif;">Login</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#" style="color:rgb(255,22,25); font-family:Overpass, sans-serif;">/</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#" style="color:rgb(255,22,25); font-family:Overpass, sans-serif;">Sign Up</a>
+                                  </li>
+                                  <li>
+                                    <button type="button" class="btn text-white" style="background-color:rgb(255,22,25); font-family:Overpass, sans-serif;">+ Post A Job</button>
+                                  </li>
+                                </ul>
+
+                                
+                              </div>
+                            </div>
+                          </nav>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!--nav end-->
+        <!-- Modal signup-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h3 class="text-center">Register Here</h3>
+        <form>
+          <input type="text" class="form-control bor" id="exampleFormControlInput1" placeholder="Name">
+          <input type="email" class="form-control bor my-4" id="exampleFormControlInput1" placeholder="Email">
+          <input type="password" class="form-control bor" id="exampleFormControlInput1" placeholder="Password">
+          <input type="password" class="form-control bor my-4" id="exampleFormControlInput1" placeholder="Confirm Password">
+          <button type="button" class="btn btn-secondary form-control pink">Sign Up</button>
+          <p class="text-center my-4"><span>Have an Account ?</span> <span><a href="#" style="text-decoration:none;"  data-bs-toggle="modal" data-bs-target="#exampleModal">Login Here</a></span></p>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+        <!-- modal END -->
+         <!--modal login-->
+<div class="modal fade" id="ExampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h3 class="text-center">Login</h3>
+        <form>
+          <input type="email" class="form-control bor my-4" id="exampleFormControlInput1" placeholder="Email">
+          <input type="password" class="form-control bor" id="exampleFormControlInput1" placeholder="Password">
+          <button type="button" class="btn btn-secondary form-control green my-4">Login</button>
+          <p class="text-center my-2"><span> Looking to</span> <span><a href="#" style="text-decoration:none;">Create an account</a> ?</span></p>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+         <!--modal login end-->
+       
+       
+        <!-- about start -->
+ <div class="row aboutimg">
+  <div class="col-sm-12 text-center text-light">
+    <h2 style="line-height: 4; font-size: 60px;">About Us</h2>
+  </div>
+</div>
+<div class="row">
+    <div class="col-sm-10 mx-auto py-4">
+        
+        <div class="grey border border-1 border-dark rounded-4 p-4 shadow">
+            <h2 class="blue">DRIVEN BY PASSION, INNOVATION & YOU</h2>
+            <p class="pt-4">Freshersworld is one of the thought leaders in the fresher recruitment space in India. At Freshersworld, it has been our constant endeavour to assist candidates, land their first dream job opportunity and help companies on the other hand, hire the right fresh talent. In short we bridge the gap between employable talent and opportunity for freshers.</p>
+
+               <p>We achieve it by making things simple yet more advanced, business-focused yet user-friendly, and striving to be agile yet reach the masses. The successful conversion of our idea into action has helped us become one of the leading giants in fresher hiring and inspires us to move Forward.</p>
+                
+                <p>With a database of over 1.5+ Crore active job seekers, Freshersworld.com (A TeamLease Company) is a leading job portal for freshers hiring in India. We are known to offer Fresher Recruitment Solutions for 60K+ recruiters, and have a presence in 5000+ colleges across India. We get over 2.5 lakh unique visitors everyday, 40+ Million web page views every month, and have more than 8.8 lakhs of followers on Facebook.</p>
+        </div>
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-10 mx-auto py-4">
+        
+        <section class="splide  py-4" id="slider3" aria-labelledby="carousel-heading">
+            <h2 class="ps-2  fw-bold" style="border-left:5px solid rgb(97,182,50);" >Successful Webinar</h2>
+
+                <div class="splide__track">
+                     <div class="splide__list">
+                          <div class="splide__slide p-3 pb-5">
+                            <div class="card mb-3 h-100" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-md-6">
+                                    <img src="images/w2.jpeg" class="img-fluid img-responsive h-100 my-2 mx-2"  alt="...">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="card-body">
+                                      
+                                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                      
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>                                  
+                            </div>
+                          <div class="splide__slide p-3 pb-5">
+                            <div class="card mb-3 h-100" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-md-6">
+                                    <img src="images/w3.webp" class="img-fluid img-responsive  h-100 my-2 mx-2"  alt="...">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="card-body">
+                                      
+                                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                      
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>  
+                          </div>
+                          <div class="splide__slide p-3 pb-5">
+                            <div class="card mb-3 h-100" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-md-6">
+                                    <img src="images/w4.webp" class="img-fluid img-responsive  h-100 my-2 mx-2"  alt="...">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="card-body">
+                                      
+                                      <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                      
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>  
+                          </div>
+                          <div class="splide__slide p-3 pb-5">
+                            <div class="card mb-3 h-100" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-md-6">
+                                    <img src="images/w5.jpg" class="img-fluid img-responsive  h-100 my-2 mx-2"  alt="...">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="card-body">
+                                      
+                                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                      
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>  
+                          </div>
+                          
+                     </div>
+                </div>
+           </section>
+    </div>
+</div>
+<!-- about end -->
+        <!--footer start-->
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+                    <div class="social" role="navigation" aria-labelledby="social-heading">
+                        <h3 id="social-heading" class="sr-only">Follow us on social media</h3>
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <hr class="footer-break">
+                    <ul class="footer-links" role="navigation" aria-labelledby="footer-links-heading">
+                        <h3 id="footer-links-heading" class="sr-only">Footer Links</h3>
+                        <li><a href="#">Site Home</a></li>
+                        <li><a href="#">Playground</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Contents</a></li>
+                    </ul>
+                    <p class="copyright">© 2024 SDavidPrince. Demo of a footer. Some Rights Reserved</p>
+                </footer>
+                
+            </div>
+        </div>
+        <!--footer end-->
+            
+
+    </div>
+    <script>
+
+      if (document.getElementById('slider3') != null) {
+           var slider3 = new Splide('#slider3', {
+                type: 'loop',
+                perPage: 2,
+                rewindByDrag: true,
+                focus: 0,
+                autoplay: true,
+                speed: 1000,
+
+                breakpoints: {
+                     991: {
+                          perPage: 2
+                     },
+                     561: {
+                          perPage: 1
+                     },
+                }
+           });
+
+           slider3.mount();
+      }
+
+ </script>
+</body>
+</html>

@@ -1,0 +1,190 @@
+.cur-font
+{
+    font-family: "Dancing Script", cursive;
+}
+.fd
+{
+    border:none;
+    border-radius:0;
+    height:40px;
+    border:1px solid black;
+
+}
+.grey
+{
+    background-color: rgb(241,246,255);
+}
+.rotate
+{
+    border-radius: 5px;
+}
+.color
+{
+    color:rgb(255,22,25);
+}
+.align
+{
+    text-align: justify;
+}
+.green
+{
+    background-color: rgb(0,90,133);
+}
+.bgimage
+{
+    background-image: url(../images/s1.jpg);
+    
+}
+.font
+{
+    font-size: 51px;
+}
+.blue
+{
+    color:rgb(89,97,190);
+}
+.bgtalent
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.349),rgba(0, 0, 0, 0.651)), url(../images/s2.jpg);
+    background-size: cover;
+}
+.fonttalent
+{
+    font-size: 51px;
+}
+.fontwork
+{
+    font-size:25px;
+}
+.cards:hover
+{
+    background-color:rgb(0,90,133) ;
+    color:white;
+}
+.hove .hov:hover
+{
+    background: radial-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1));
+    transition: 0.2s ease;
+}
+.spac .image
+{
+    transition: 0.4s ease;
+}
+.image:hover 
+{
+    transform: scale(1.2);
+    
+}
+.spac:hover 
+{
+    overflow: hidden;
+}
+/*modal*/
+.bor
+{
+    border:none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: rgb(0,90,133);
+    color: white;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer li {
+    display: inline-block; /* Change to inline-block for horizontal layout */
+    padding: 0 10px;
+}
+
+.footer ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul a:hover {
+    opacity: 1;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer .social > a:hover {
+    opacity: 0.9;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+.footer .footer-break{
+  height:2px;
+  border-width:0;
+  color:gray;
+  background-color:white
+    }
+.card-title
+{
+    transition: 0.5s ease-in-out;
+}
+.cc:hover .card-title
+{
+    margin-left: 20px;
+}
+.poly
+{
+    height: 50px;
+    width: 30px;
+    background-color: rgb(255,22,25);
+    float: right;
+    margin-top: -110px;
+}
+.bgslider
+{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.918),rgba(0,0,0,0.1)),url(../images/s1.jpg);
+    background-size: cover;
+}
+/* about */
+.aboutimg
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.337),rgba(0, 0, 0, 0.23)),url(../images/about.jpeg);
+  background-size: cover;
+  height: 300px;
+}
+/* feedback */
+.feedbackimg
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.337),rgba(0, 0, 0, 0.23)),url(../images/about.jpeg);
+  background-size: cover;
+  height: 300px;
+}
